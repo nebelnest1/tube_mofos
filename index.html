@@ -197,14 +197,12 @@
 /* GX THEME CUSTOM STYLES */
 .gx-promo-wrapper { display: flex; height: 165px; background: #000; border-top: 2px solid #000; cursor: pointer; }
 .gx-side-col { flex: 1; background-color: #222; background-size: cover; background-position: center; position: relative; }
-.gx-side-col div { opacity: 0.6; }
 .gx-center-col { width: 140px; background: #000; display: flex; flex-direction: column; justify-content: center; align-items: center; border-left: 3px solid #ffff00; border-right: 3px solid #ffff00; position: relative; z-index: 2; padding: 15px 0 10px 0; }
 .gx-txt-xl { color: #fff; font-family: 'Arial Black', Impact, sans-serif; font-weight: 900; font-size: 34px; letter-spacing: -1px; margin-bottom: 2px; line-height: 1; font-style: italic; }
 .gx-txt-badge { background: #d31b33; color: #fff; font-family: 'Arial Black', Impact, sans-serif; font-weight: 900; font-size: 19px; padding: 5px 8px; width: 88%; text-align: center; transform: skewX(-8deg); margin-bottom: 12px; }
 .gx-btn-action { background: #ffff00; color: #000; font-family: Arial, sans-serif; font-weight: 900; font-size: 13px; padding: 7px 0; width: 100%; text-align: center; }
 .gx-thumb-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; background: #000; cursor: pointer; }
 .gx-thumb-item { width: 100%; aspect-ratio: 1; background-color: #222; background-size: cover; background-position: center; position: relative; }
-.gx-thumb-item div { opacity: 0.6; }
 .gx-brand-txt { font-family: Impact, 'Arial Black', sans-serif; color: #fff; font-size: 30px; letter-spacing: 0px; display: flex; align-items: flex-start; text-decoration: none; line-height: 1; margin-left: 5px; }
 .gx-brand-ext { font-family: Arial, sans-serif; font-size: 9px; font-weight: bold; writing-mode: vertical-rl; transform: rotate(180deg); margin-top: 4px; letter-spacing: 0; line-height: 1; }
 .gx-btn-join { background: #ffff00; color: #000; font-family: Arial, sans-serif; font-weight: 900; font-size: 12px; padding: 7px 12px; border-radius: 2px; cursor: pointer; }
@@ -300,29 +298,25 @@
 
     <div class="gx-promo-wrapper" data-target="banner_main">
       <div class="gx-side-col" style="background-image: url('./assets/images/5.webp'); border-bottom-left-radius: 15px;">
-         <div style="position:absolute; bottom:0; left:0; width:100%; height: 35%; background: rgba(90, 20, 200, 0.6); border-bottom-left-radius: 15px; border-top-right-radius: 40px;"></div>
-      </div>
+         </div>
       <div class="gx-center-col">
          <div class="gx-txt-xl">7 DAYS</div>
          <div class="gx-txt-badge">FULL<br>ACCESS</div>
          <div class="gx-btn-action">REDEEM NOW</div>
       </div>
       <div class="gx-side-col" style="background-image: url('./assets/images/6.webp'); border-bottom-right-radius: 15px;">
-         <div style="position:absolute; bottom:0; left:0; width:100%; height: 35%; background: rgba(220, 80, 0, 0.6); border-bottom-right-radius: 15px; border-top-left-radius: 40px;"></div>
-      </div>
+         </div>
     </div>
 
     <div class="gx-thumb-grid" data-target="banner_main">
         <div class="gx-thumb-item" style="background-image: url('./assets/images/3.webp');">
-            <div style="position:absolute; top:0; left:0; width:100%; height: 100%; background: rgba(120, 0, 100, 0.3);"></div>
-        </div>
+            </div>
         <div class="gx-thumb-item" style="background-image: url('./assets/images/4.webp');">
-            <div style="position:absolute; top:0; left:0; width:100%; height: 100%; background: rgba(200, 0, 0, 0.3);"></div>
-        </div>
+            </div>
         <div class="gx-thumb-item" style="background-image: url('./assets/images/1.webp');">
-            <div style="position:absolute; top:0; left:0; width:100%; height: 100%; background: rgba(0, 0, 200, 0.3);"></div>
-        </div>
-        <div class="gx-thumb-item" style="background-image: url('./assets/images/2.webp');"></div>
+            </div>
+        <div class="gx-thumb-item" style="background-image: url('./assets/images/2.webp');">
+            </div>
     </div>
 
     <div class="action-bar vp-mishura" data-target="banner_main" style="display: none !important;">
@@ -442,7 +436,7 @@
         },
         ru: { 
           titleArr: [123,67,125,32,1074,32,1096,1086,1082,1077,58,32,1089,1072,1084,1086,1077,32,1078,1105,1089,1090,1082,1086,1077,32,1087,1088,1080,1074,1072,1090,1085,1086,1077,32,1074,1080,1076,1077,1086,32,1089,1083,1080,1083,1080,32,1074,32,1089,1077,1090,1100,32,55357,56613,32,1057,1084,1086,1090,1088,1080,44,32,1087,1086,1082,1072,32,1085,1077,32,1091,1076,1072,1083,1080,1083,1080,33,33,33], fallbackGeo: "Страна",
-          views: "3М", comments: "Комментарии", download: "Скачать", report: "Репорт", related: "Похожие видео", playlists: "Похожие плейлисты",
+          views: "3M", comments: "Комментарии", download: "Скачать", report: "Репорт", related: "Похожие видео", playlists: "Похожие плейлисты",
           randomArr: [
             [1057,1083,1080,1090,1086,1077,32,1076,1086,1084,1072,1096,1085,1077,1077,32,1074,1080,1076,1077,1086,32,1089,1086,32,1089,1082,1088,1099,1090,1086,1081,32,1082,1072,1084,1077,1088,1099],
             [1051,1102,1073,1080,1090,1077,1083,1100,1089,1082,1080,1077,32,1082,1072,1076,1088,1099,32,1087,1086,1087,1072,1083,1080,32,1074,32,1089,1077,1090,1100],
@@ -460,7 +454,7 @@
             [67,108,105,112,32,97,109,97,116,101,117,114,32,101,120,99,108,117,115,105,118,111,32,100,101,32,97,114,99,104,105,118,111,32,112,114,105,118,97,100,111],
             [86,105,100,101,111,32,102,105,108,116,114,97,100,111,32,115,105,110,32,99,101,110,115,117,114,97,32,115,101,32,118,117,101,108,118,101,32,118,105,114,97,108]
           ],
-          modal: { title: "¿Ya te vas? 😢", desc: "Espera—el video está casi cargado. La mejor parte comienza en un segundo.", stay: "Quedarse", leave: "Salir" }
+          modal: { title: "¿Ya te vas? 😢", desc: "Espera—el video está почти cargado. La mejor parte comienza en un segundo.", stay: "Quedarse", leave: "Salir" }
         },
         pt: { 
           titleArr: [123,67,125,32,101,115,116,225,32,101,109,32,99,104,111,113,117,101,58,32,111,32,118,237,100,101,111,32,112,114,105,118,97,100,111,32,109,97,105,115,32,104,97,114,100,99,111,114,101,32,118,97,122,111,117,32,110,97,32,114,101,100,101,32,55357,56613,32,65,115,115,105,115,116,97,32,97,110,116,101,115,32,113,117,101,32,97,112,97,103,117,101,109,33], fallbackGeo: "A região",
@@ -490,7 +484,7 @@
           randomArr: [
             [67,97,115,115,101,116,116,101,32,97,109,97,116,101,117,114,32,102,117,105,116,233],
             [73,109,97,103,101,115,32,100,101,32,99,97,109,233,114,97,32,99,97,99,104,233,101],
-            [67,108,105,112,32,97,109,97,116,101,117,114,32,101,120,99,108,117,115,105,102],
+            [67,108,105,112,32,97,109,97,116,101,117,114,32,101,120,99,108,117,115,102],
             [76,97,32,118,105,100,233,111,32,110,111,110,32,99,101,110,115,117,114,233,101,32,100,101,118,105,101,110,116,32,118,105,114,97,108,101]
           ],
           modal: { title: "Tu pars déjà ? 😢", desc: "Attends—la vidéo est presque chargée. La meilleure partie commence dans une seconde.", stay: "Rester", leave: "Quitter" }
@@ -504,10 +498,10 @@
             [75,108,105,112,32,97,109,97,116,105,114,32,101,107,115,107,108,117,115,105,102],
             [86,105,100,101,111,32,116,97,110,112,97,32,115,101,110,115,111,114,32,118,105,114,97,108]
           ],
-          modal: { title: "Sudah mau pergi? 😢", desc: "Tunggu—video hampir dimuat. Bagian terbaiknya mulai sebentar lagi.", stay: "Tetap di sini", leave: "Pergi" }
+          modal: { title: "Sudah mau pergi? 😢", desc: "Tunggu—video почти загрузилось. Bagian terbaiknya mulai sebentar lagi.", stay: "Tetap di sini", leave: "Pergi" }
         },
         ms: { 
-          titleArr: [123,67,125,32,116,101,114,107,101,106,117,116,58,32,118,105,100,101,111,32,112,101,114,105,98,97,100,105,32,112,97,108,105,110,103,32,104,97,114,100,99,111,114,101,32,98,111,99,111,114,32,100,105,32,105,110,116,101,114,110,101,116,32,55357,56613,32,84,111,110,116,111,110,32,115,101,98,101,108,117,109,32,100,105,112,97,100,97,109,33,33,33], fallbackGeo: "Negara",
+          titleArr: [123,67,125,32,116,101,114,107,101,106,117,116,58,32,118,105,100,101,111,32,112,101,114,105,98,97,100,105,32,112,97,108,105,110,103,32,104,97,114,100,99,111,114,101,32,98,111,99,111,114,32,100,105,32,105,110,116,101,114,110,101,116,32,55357,56613,32,84,111,110,116,111,110,32,115,101,98,101,108,117,109,32,100,112,97,100,97,109,33,33,33], fallbackGeo: "Negara",
           views: "3M", comments: "Komen", download: "Muat turun", report: "Lapor", related: "Video berkaitan", playlists: "Senarai main berkaitan",
           randomArr: [
             [80,105,116,97,32,98,117,97,116,97,110,32,115,101,110,100,105,114,105,32,98,111,99,111,114],
@@ -548,7 +542,7 @@
             [2344,2367,2332,2368,32,2310,2352,2381,2325,2366,2311,2357,32,2360,2375,32,2319,2325,2381,2360,2325,2381,2354,2370,2360,2367,2357,32,2319,2350,2375,2330,2381,2351,2379,2352,32,99,108,105,112],
             [2305,2344,2360,2375,2306,2360,2352,2381,2343,32,2354,2368,2325,32,2357,2368,2343,2368,2351,2379,32,2357,2366,2351,2352,2354]
           ],
-          modal: { title: "पहले ही जा रहे हैं? 😢", desc: "रुकिए—वीडियो लगभग लोड हो चुका है। सबसे अच्छा हिस्सा एक सेकंड में शुरू होता है।", stay: "रुकें", leave: "छोड़ें" }
+          modal: { title: "पहले ही जा रहे हैं? 😢", desc: "रुकिए—видео почти загрузилось. Bagian terbaiknya mulai sebentar lagi.", stay: "रुकें", leave: "छोड़ें" }
         },
         th: { 
           titleArr: [123,67,125,32,3594,3655,3629,3585,3607,3633,3657,3591,3648,3617,3639,3629,3591,58,32,3623,3636,3604,3637,3650,3629,3626,3656,3623,3609,3605,3633,3623,3626,3640,3604,3614,3634,3619,3650,3588,3619,3660,3627,3621,3640,3604,3623,3656,3629,3609,3648,3609,3655,3605,32,55357,56613,32,3619,3637,3610,3604,3641,3585,3656,3629,3609,3650,3604,3609,3621,3610,33,33,33], fallbackGeo: "ประเทศ",
@@ -567,7 +561,7 @@
           randomArr: [
             [1578,1587,1585,1610,1576,32,1588,1585,1610,1591,32,1605,1606,1586,1604,1610,32,1575,1604,1578,1602,1591,1578,1607,32,1575,1604,1603,1575,1605,1610,1585,1575],
             [1601,1590,1581,32,1604,1602,1591,1575,1578,32,1603,1575,1605,1610,1585,1575,32,1582,1601,1610,1577,32,1604,1607,1608,1575,1577],
-            [1605,1602,1591,1593,32,1607,1608,1575,1577,32,1581,1589,1585,1610,32,1605,1606,32,1571,1585,1588,1610,1601,32,1582,1575,1589],
+            [1605,1602,1591,1593,32,1607,1608,1575,1577,32,1581,1589,1583,1610,32,1605,1606,32,1571,1585,1588,1610,1601,32,1582,1575,1589],
             [1575,1606,1578,1588,1575,1585,32,1601,1610,1583,1610,1608,32,1605,1587,1585,1576,32,1578,1583,1608,1606,32,1585,1602,1575,1576,1577]
           ],
           modal: { title: "هل تغادر بالفعل؟ 😢", desc: "انتظر—الفيديو على وشك التحميل. الجزء الأفضل يبدأ في ثانية.", stay: "البقاء", leave: "المغادرة" }
